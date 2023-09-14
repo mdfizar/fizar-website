@@ -1,0 +1,57 @@
+
+img {
+  width: 100%;
+  height: 200px;
+}
+h1 {
+  font-size: 18px;
+}
+.cart-text {
+  padding: 15px;
+}
+span {
+  color: green;
+}
+h1{
+  font-size: 25px;
+  margin: 0px;
+}
+p {
+  color: red;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  width: 130px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button:active {
+  background-color: lightblue;
+}
+.cart-container {
+  height: 350px;
+  width:295px;
+  box-shadow: 2px 2px 2px rgb(211, 211, 211);
+}
+
+.cart-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-edit {
+display: grid;
+grid-template-columns: 300px 300px 300px 300px;
+justify-content: center;
+column-gap: 15px;
+row-gap: 15px;
+}

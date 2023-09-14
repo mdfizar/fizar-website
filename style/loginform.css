@@ -1,0 +1,77 @@
+/*---- LOFIN FORME IS START----- */
+.input-data {
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.input-data:focus {
+  background-color: aliceblue;
+}
+
+.login-btn {
+  width: 420px;
+  height: 35px;
+  background-color: rgb(6, 177, 6);
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+
+::placeholder {
+  font-size: 17px;
+  color: rgb(208, 208, 208);
+}
+
+fieldset {
+  border: none;
+  text-align: center;
+  padding: 20px;
+  width: 1000px;
+  margin: 0px auto;
+}
+.fieldset {
+  width: 1000px;
+  text-align: center;
+}
+.trams {
+  color: blue;
+}
+.register-input {
+  width: 500px;
+  padding: 15px;
+  outline:none;
+  border: 1px solid gray;
+  border-radius: 7px;
+  font-size: 18px;
+}
+  .register-input::placeholder{
+  color: rgb(98, 97, 97);
+}
+.register-input:focus {
+  background-color: rgb(223, 247, 255);
+}
+.submit-btn {
+  font-size: 18px;
+  width: 535px;
+  padding: 15px;
+  background-color: rgb(180, 250, 180);
+  border-radius: 7px;
+  border:none;
+}
+.submit-btn:hover {
+  background-color: rgb(3, 145, 3);
+  color: white;
+}
+.text {
+  padding: 20px;
+  text-align: center;
+}
+label {
+  margin-left: -29rem;
+}
+/*------ LOGIN FORM IS END------ */

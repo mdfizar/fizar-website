@@ -1,0 +1,196 @@
+/*---------GOLOBAL-----------*/
+html {
+  height: 100%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding-top: 90px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*------ HEADER IS START----- */
+header {
+  background-color: blue;
+  display: flex;
+  height: 75px;
+  padding: 0px 10px;
+  align-items: center;
+  border: none;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+header .header-edit img {
+  width: 70px;
+  height: 30px;
+}
+
+.header-edit {
+  display: flex;
+}
+
+.header-edit p {
+  color: rgb(237, 205, 182);
+}
+
+.header-edit a {
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 25px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav {
+  width: 500px;
+  margin: 0px auto;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(237, 205, 182);
+  border: none;
+  border-radius: 7px;
+}
+
+/*--------MAIN IS START--------*/
+/*-----section 1-----*/
+.template {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.layout-container {
+  width: 700px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.image {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+
+}
+
+ul li {
+  list-style-type: square;
+}
+
+.aside-container {
+  margin-top: 8rem;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.aside-flex {
+  width: 300px;
+  height: 155rem;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content-position {
+  width: 1118px;
+  margin: 0px auto;
+}
+
+/*-----section 2-----*/
+.cart-container {
+  height: 242px;
+  width: 245px;
+  padding: 10px;
+  Margin: 10px;
+  background-color: #fee4e4;
+  transition: 1s;
+}
+
+.cart-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.layout {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*----section 2-----*/
+
+/*------FOOTER IS START--------*/
+footer {
+  color: white;
+  background-color: blue;
+  width: 100%;
+  height: 200px;
+  margin-top: auto;
+}
+
+.footer-layout {
+  position: relative;
+  width: 450px;
+  height: 200px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+button {
+  padding: 10px;
+  color: greenyellow;
+  background-color: rgb(137, 137, 137);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 18px;
+}
+
+.footer-flex-container {
+  height: 70px;
+  width: 400px;
+  position: absolute;
+  bottom: 30px;
+}
